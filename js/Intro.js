@@ -59,3 +59,4 @@ var personas=[
 
 var personaJSON= JSON.stringify(persona);
 var nuevapersona=JSON.parse(personaJSON);
+

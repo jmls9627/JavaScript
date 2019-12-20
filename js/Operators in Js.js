@@ -153,3 +153,26 @@ console.log("El número "+ A +" usado como número y 8 como texto se unen para f
 //Condicion true : false
 var resultado = A>B ?"si es mayor":"no es mayor";
 console.log("el resutado es :", resultado);
+
+
+//---------------------*** OPERADOR de tipo de datos **-----------------
+
+var datoA = A; //(a=10) Número
+
+var nombre1 = nombre; //(nombre=jose) Cadena de texto
+
+var activo = true // Boleano
+
+var persona = {
+	edad: 34, // Número
+	deporte: 'Correr' // Cadena de texto
+} // Objeto
+
+console.log(typeof datoA);
+console.log(typeof nombre1);
+console.log(typeof activo);
+
+console.log(typeof persona);
+
+console.log(typeof persona.edad);
+console.log(typeof persona.deporte);
