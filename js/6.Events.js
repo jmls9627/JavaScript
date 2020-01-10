@@ -37,7 +37,7 @@ window.addEventListener('load',function(){
 
 //*********************EVENTOS MULTIMEDIA************* */
 
-const video=document.querySelector(".bostonVideo");
+const video = document.querySelector('.bostonVideo');
 
 video.addEventListener('play',function(){
     console.log("se ha iniciado");
@@ -51,4 +51,25 @@ video.addEventListener('ended',function(){
     console.log("el video ha terminado");
 });
 
-//*********************EVENTOS MULTIMEDIA************* */
+/*********************Temporizadores o timers************* */
+
+//setInterval
+//setTimeout
+
+
+var temp=setInterval(function(){ //lo va a realizar muchas veces
+   setcolor();
+},1000);
+
+/*setTimeout(function(){  //una sola vez
+    setcolor();
+},3000);*/
+
+function setcolor(){
+   var pag=document.body;
+   pag.style.backgroundColor = pag.style.backgroundColor =="blue" ? "green" :"blue";
+}
+
+function stopchangecolor(){
+    clearInterval(temp);
+}
