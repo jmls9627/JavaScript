@@ -1,3 +1,4 @@
+"use strict"
 /**********creando arreglos***** */
 
 var platillos=["veviche","tacos","pasta"];
